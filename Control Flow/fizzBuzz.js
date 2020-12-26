@@ -4,7 +4,6 @@
 // Not divisible by 3 or 5 => input
 // Not a number => 'Not a number'
 
-
 const output = fizzBuzz(false);
 console.log(output);
 
