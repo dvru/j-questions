@@ -4,16 +4,19 @@
 // 12 points -> suspended; more than 12 points = suspended
 // create a constant for the speed limit 70 since nobody else knows it's 70 expect you
 
-checkSpeed(180);
+checkSpeed(130);
 
 function checkSpeed(speed){
     const speedLimit = 70;
     const kmPerPoint = 5;
 
-    if(speed < speedLimit){
+    if(speed < speedLimit + kmPerPoint){ // if speed is less than 75
         console.log('Ok');
+        return;
     } 
-    else {
-        let points = (speed - speedLimit) / kmPerPoint;
-    }
+    const points = Math.floor((speed - speedLimit) / kmPerPoint);
+    if(points >= 12)
+        console.log('License suspended');
+    else
+        console.log('Points', points)
 }
