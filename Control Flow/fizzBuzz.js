@@ -22,6 +22,7 @@ function fizzBuzz(input) {
  }
     return input;
  }
+ 
 
  //check if the input is a valid number
  //check if the input is divivible by 3 and 5
