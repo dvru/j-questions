@@ -102,3 +102,18 @@ function Post(title, body, author){
     this.isLive = false;
 }
 
+// Create an array of objects, each object will be a price range object
+
+let priceRanges = [
+    { label: '$', tooltip: 'Inexpensice', minPerPerson: 0, maxPerPerson: 10 },
+    { label: '$$', tooltip: 'Moderate', minPerPerson: 11, maxPerPerson: 20 },
+    { label: '$$$', tooltip: 'Expensive', minPerPerson: 21, maxPerPerson: 50 }
+]
+
+console.log(priceRanges);
+
+let restaurants = [
+    {averagePerPerson: 5}
+]
+
+console.log(restaurants);
