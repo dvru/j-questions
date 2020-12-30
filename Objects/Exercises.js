@@ -62,3 +62,25 @@ function areSame(address1, address2){
     return address1 === address2;
 }
 
+
+// Blog Post Object with these properties:
+// title
+// body
+// author
+// views, # of times viewed
+// comments ( author, body )
+// isLive
+
+const blogPost = {
+    title: 'a',
+    body: 'b',
+    author: 'c',
+    views: 10,
+    comments: [
+        { author: 1, body: 2 },
+        { author: 3, body: 4 }
+    ],
+    isLive: true
+};
+
+console.log(blogPost);
