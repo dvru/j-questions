@@ -84,3 +84,21 @@ const blogPost = {
 };
 
 console.log(blogPost);
+
+
+// Constructor function to create a post object
+// set views, comments, and islive, without any values
+// 0 views for no views, empty array for no comments, and islive to false
+
+let post = new Post('title', 'body', 'author');
+console.log(post);
+
+function Post(title, body, author){
+    this.title = title;
+    this.body = body;
+    this.author = author;
+    this.views = 0;
+    this.comments = [];
+    this.isLive = false;
+}
+
