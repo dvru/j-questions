@@ -16,9 +16,9 @@ function showAddress(address){
 
 showAddress(address);
 
+
 // Factory and Constructor Functions
 // initialize address object, using factory and constructor function
-
 
 // Factory
 function createAddress(address){
