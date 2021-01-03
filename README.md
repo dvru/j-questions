@@ -1,3 +1,3 @@
 # j-questions
 
-JavaScript Technical Interview questions.
+JavaScript Technical Interview Questions
