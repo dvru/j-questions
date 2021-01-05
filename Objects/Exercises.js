@@ -34,7 +34,6 @@ function Address(address){
 }
 console.log(address);
 
-
 // Object Equality
 // Use the constructor function that we created in the last exercise to create two address objects.
 let address1 = new Address('a', 'b', 'c');
