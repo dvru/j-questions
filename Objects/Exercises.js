@@ -85,6 +85,7 @@ const blogPost = {
 console.log(blogPost);
 
 
+
 // Constructor function to create a post object
 // set views, comments, and islive, without any values
 // 0 views for no views, empty array for no comments, and islive to false
