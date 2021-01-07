@@ -23,3 +23,12 @@ const items = filtered.map(n => {
 
 console.log(items);
 //[ { value: 1 }, { value: 2 }, { value: 3 } ]
+
+const item = numbers
+    .filter(n => n >= 0)
+    .map(n => ({ value: n}))
+    .filter (obj => obj.value > 1)
+    .map(obj => obj.value);
+
+console.log(item);
+//chaining methods
