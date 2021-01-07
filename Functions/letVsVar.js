@@ -13,5 +13,7 @@ start();
 // let is not accessible outside the scope
 // var is accessable outside the scope
 
-// var => function scopr variables
+// var => function scope variables
 // ES6: let, const => block-scoped
+
+// avoid var, it create varibles that are function scope not block scope
