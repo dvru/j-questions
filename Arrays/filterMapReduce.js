@@ -32,3 +32,22 @@ const item = numbers
 
 console.log(item);
 //chaining methods
+
+
+// Reducing
+const number = [1, -1, 2, 3]; // price of item
+
+// let sum = 0;
+// for(let n of number)
+//     sum += n;
+// console.log(sum); // 5
+
+// a = 0, c = 1 => a = 1
+// a = 1, c = -1 => a = 0
+// a = 0, c = 2 => a = 2
+// a = 2, c = 3 => a = 5
+const sum = number.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+}, 0);
+
+console.log(sum);
