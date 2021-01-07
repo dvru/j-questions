@@ -2,7 +2,7 @@ const person = {
     firstName: 'Damini',
     lastName: 'Varu',
     get fullName(){
-        return `${person.firstName} ${person.lastName}`
+        return `${person.firstName} ${person.lastName}`;
     },
     set fullName(value){
         const parts = value.split(' ');
@@ -17,4 +17,3 @@ person.fullName = 'John Smith';
 // setters => change(mutate) them
 
 console.log(person.fullName);
-
