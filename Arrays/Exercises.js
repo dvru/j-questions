@@ -17,7 +17,7 @@ function arrayFromRange(min, max){
 // Includes
 //create function called includes, takes an array and search element.
 // iterate through and check if that element is === to the search element return true
-const numbers = [1, 2, 3, 4];
+const numbers = [1, 2, 3, 4, 1];
 
 // console.log(includes(numbers, 1))
 
@@ -48,7 +48,11 @@ function except( array, excluded){
 
 
 // Moving an element 
-// 
+// 1, 2, 3, 4
+// remove from array
+// then place that element back into the array
+// store element to put back into array
+
 const output = move(numbers, 0, 1); // numbers array, first element, 1 postion to right
 
 console.log(output);
@@ -68,7 +72,32 @@ function move(array, index, offset){
     
 }
 
-// 1, 2, 3, 4
-// remove from array
-// then place that element back into the array
-// store element to put back into array
+
+//Count Occurance
+// function countoccurance, two params, array and search element
+// check if number is in array
+// check count, number within array
+
+const count = countOccurances(numbers, 1);
+console.log(count);
+
+function countOccurances(array, searchElement){
+    // let count = 0;
+    // for(let element in array)
+    //     if(element === searchElement)
+    //     count++;
+    // return count;
+
+    return array.reduce((accumulator, current) => {
+        const occurance = (current === searchElement) ? 1 : 0;
+        console.log(accumulator, current, searchElement);
+        return accumulator + occurance
+}, 0);
+}
+
+// 0 1 1
+// 1 2 1
+// 1 3 1
+// 1 4 1
+// 1 1 1
+// 2
