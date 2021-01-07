@@ -13,6 +13,7 @@ const course = courses.find(course => course.name === 'a');
 
 const ingredient = recipes.find(ingredient => ingredient.name === 'pepper');
 
+
 console.log(course);
 console.log(ingredient);
 
