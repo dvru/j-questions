@@ -50,3 +50,4 @@ courses.sort(function(first, second){
 });
 console.log(courses);
 // [ { id: 2, name: 'JavaScript.js' }, { id: 1, name: 'Node.js' } ]
+
