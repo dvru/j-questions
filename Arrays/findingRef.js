@@ -14,4 +14,7 @@ const course = courses.findIndex(function(course){
     return course.name === 'a';
 });
 
+
+
+
 console.log(course);
