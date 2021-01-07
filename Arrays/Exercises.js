@@ -19,7 +19,7 @@ function arrayFromRange(min, max){
 // iterate through and check if that element is === to the search element return true
 const numbers = [1, 2, 3, 4];
 
-console.log(includes(numbers, 1))
+// console.log(includes(numbers, 1))
 
 function includes(array, searchElement){
     for(let element of array)
@@ -29,4 +29,18 @@ function includes(array, searchElement){
 }
 
 
+// Except
+// numbers array, 
+// except function, that takes and array one and another array
+// function returns new array without the second array
 
+const output = except(numbers, [1, 2, 4, 3])
+
+function except( array, excluded){
+    const output = [];
+    for(let element of array)
+        if(!excluded.includes(element)) // check if current element is not in the excluded array
+            output.push(element); // then push element in output array
+    return console.log(output);
+
+}
