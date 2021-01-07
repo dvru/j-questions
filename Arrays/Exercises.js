@@ -34,7 +34,7 @@ function includes(array, searchElement){
 // except function, that takes and array one and another array
 // function returns new array without the second array
 
-const output = except(numbers, [1, 2, 4, 3])
+// const output = except(numbers, [1, 2, 4, 3])
 
 function except( array, excluded){
     const output = [];
@@ -44,3 +44,24 @@ function except( array, excluded){
     return console.log(output);
 
 }
+
+
+
+// Moving an element 
+// 
+const output = move(numbers, 0, 1); // numbers array, first element, 1 postion to right
+
+console.log(output);
+
+function move(array, index, offset){
+    const output = [...array]; 
+    const element = output.splice(index, 1)[0];
+    output.splice(index + offset, 0, element);
+    return output;
+    
+}
+
+// 1, 2, 3, 4
+// remove from array
+// then place that element back into the array
+// store element to put back into array
