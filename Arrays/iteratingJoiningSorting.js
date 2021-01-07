@@ -10,4 +10,4 @@ ingredients.forEach(function(ingredient){
     console.log(ingredient);
 })
 
-ingredients.forEach(ingredient => console.log(ingredient));
+ingredients.forEach((ingredient, index) => console.log(index, ingredient));
