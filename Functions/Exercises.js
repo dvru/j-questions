@@ -22,8 +22,6 @@ const circle = {
 
 console.log(circle.area);
 
-
-
 // Error Handling
 try{
     const numbers = (1, 2, 3, 4);
