@@ -21,3 +21,11 @@ console.log(Object.keys(c1));
 
 // Returns all members (instance + prototype)
 for (let key in c1) console.log(key);
+
+
+// Dont modify objects that you dont own
+Array.prototype.shuffle = function () {
+    // ..
+}
+const array = [];
+array.shuffle()
