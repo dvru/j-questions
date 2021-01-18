@@ -5,6 +5,7 @@ const circle = {
     }
 };
 
+// Enumarate Property
 for (let key in circle){
     console.log(key); // radius, draw
     console.log(key, circle[key]); // value of key in circle obj
