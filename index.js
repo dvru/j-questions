@@ -41,6 +41,7 @@ function Square(size) {
 // square inherits from shape
 extend(Square, Shape);
 
+
 const s = new Shape();
 const c = new Circle(1, 'red');
 
