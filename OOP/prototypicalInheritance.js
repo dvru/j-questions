@@ -14,7 +14,6 @@ function extend(Child, Parent) {
     Child.prototype.constructor = Child;
 }
 
-
 // Circle Construcor
 function Circle(radius, color) {
     Shape.call(this, color);
