@@ -60,6 +60,7 @@ const circle = {
     let defaultLocation = {};                      
  }                       
  
+ 
  // To define a getter/setter, use Object.defineProperty():
  
  Object.defineProperty(this, 'defaultLocation', {
