@@ -3,6 +3,7 @@ const circle = {
     radius: 1, 
     draw: function() {}
  }; 
+ 
     
  // To create multiple objects with the same structure and behaviuor (methods), use a factory or a constructor. 
  
