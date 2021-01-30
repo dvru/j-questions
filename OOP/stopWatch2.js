@@ -23,6 +23,7 @@ function Stopwatch() {
     });
 }
 
+
 Stopwatch.prototype.start = function () {
     if (this.running)
         throw new Error('Stopwatch has already started.');
