@@ -44,9 +44,11 @@ Stopwatch.prototype.stop = function () {
     const seconds = (endTime.getTime() - startTime.getTime()) / 1000;
     duration += seconds;
 };
+
 Stopwatch.prototype.reset = function () {
     this.startTime = null;
     this.endTime = null;
     this.running = false;
     duration = 0;
 };
+
