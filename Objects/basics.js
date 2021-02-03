@@ -13,7 +13,6 @@ const circle = {
 };
 circle.draw();
 
-
 // Factory Function
 function createCircle(radius){
     return {
